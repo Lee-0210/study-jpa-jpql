@@ -15,7 +15,7 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments"  value="true"/>
-            <property name="hibernate.hbm2ddl.auto" value="none" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />
             <!--
                 create      : 기존테이블 삭제 후 다시 생성
                 create-drop : create 와 같으나 종료시점에 테이블 DROP
